@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --letras_oscu:#000;
+  --encima:#235084;
+  --fondo: #508aff;
+  --color_letras:#f7f7f7; 
+  --color_uso: rgb(172, 218, 224);
+  --alerta:rgb(255, 0, 0);
+
+}
+header{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: var(--letras_oscu);
+}
+body{
+  background-color: var(--color_uso);
+}
+
+.Cuadro{
+  display: inline flex;
+  margin-top: 10px ;
+  margin-left: 300px;
+  margin-right: 100px;
+  text-align: center;
+}
+.tabla{
+  display: block;
+  margin: 0 ;
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+}
+.tabla_Azul{
+  border: solid 1px #000;
+  background-color: var(--fondo);
+  color: var(--color_letras);
+}
+.tabla_Azul:hover{
+  margin: 0 ;
+  width: 102px;
+  height: 26px;
+  border: solid 1px #00000088;
+  background-color: var(--encima);
+  color: var(--color_letras);
+}
+.tabla_NegAm{
+  border: solid 1px #000;
+  background-color: #000;
+  color: var(--);
+}
+.tabla_NegAm:hover{
+  margin: 0 ;
+  width: 102px;
+  height: 26px;
+  background-color: var(--color_letras);
+  color: var(--letras_oscu);
+  border-radius: 5px;
+}
+.tabla_Negra{
+ 
+  background-color: #000;
+  color: var(--color_letras);
+}
+.tabla_Negra:hover{
+  margin: 0 ;
+  width: 102px;
+  height: 26px;
+  border: solid 1px #a0131388;
+  background-color:#eaff00;
+  color: var(--fondo);
+  border-radius: 5px;
+}
+.tabla3{
+  border: solid 1px #ffffff;
+  background-color: #ffffff;
+  color: var(--letras_oscu);
+}
+.tabla3:hover{
+  width: 125px;
+  height: 27px;
+  border: solid 1px #000000;
+  background-color: var(--letras_oscu);
+  color: var(--color_letras);
+  border-radius: 5px;
+  transition: 2s;
+  transition:all 1s;
+}
+.table3{
+  border: solid 1px #fcfcfc;
+  background-color: #000;
+  color: var(--color_letras);
+}
+.table3:hover{
+  width: 125px;
+  height: 26px;
+  border: solid 1px #a0131388;
+  background-color:#000000;
+  color: var(--fondo);
+  border-radius: 5px;
+  transition:all 1s;
+}
+.tabla4{
+  border: solid 1px #ffffff;
+  background-color: #ffffff;
+  color: var(--letras_oscu);
+}
+.tabla4:hover{
+  width: 100%;
+  height: 27px;
+  border: solid 1px #000000;
+  background-color: var(--letras_oscu);
+  color: var(--color_letras);
+  border-radius: 5px;
+  transition: 2s;
+  transition:all 1s;
+  margin: 0 auto;
+}
+button{
+  width: 80px;
+  height: 20px;
+  display: block ;
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 0 auto;
+  background-color: rgb(3, 0, 21);
+  border: solid rgb(7, 1, 39);
+  border-radius: 5px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}

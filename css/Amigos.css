@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --fondo:#05bdfa;
+  --letras:#000000;
+  --subletras:#fff;
+  --relleno:#11d9e3;
+  --color:#133134;
+  --bordes: #a9782f;
+  --color:#28c9e2;
+}
+body{
+  width: 80pc;
+  height:60pc;
+  background-color: var(--fondo);
+  color: var(--letras);
+  display: inline-block;
+}
+.texto__estudiantes{
+  font-size: 25px;
+  color: var(--color);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px;
+  width: 700px;
+  background-color: var(--bordes);
+}
+.texto__principal{
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 50px;
+}
+.lista{
+  color: var(--letras);
+  margin: 0 auto ;
+  text-decoration: none;
+  }
+.texto__personal{
+  display: block;
+  margin: 5px;
+  margin-left: 40px;
+  padding: 1px;
+  border: solid 1px var(--color);
+  height: 20px;
+  width: 150px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.premiados{
+  background-color: #000000;
+  color:var(--subletras)
+}
+.texto{
+  background-color: var(--subletras);
+  color: #000000;
+}
+.premiados1{
+  background-color: #fff;
+  color: var(--fondo);
+}
+.texto1{
+  background-color:(--fondo);
+  color: var(--subletras);
+}
+/*david*/
+.premiados:hover{
+  background-color: #ffffff;
+  color:var(--letras);
+  height: 40px;
+  width: 250px;
+  font-size: 40px;
+  border-radius: 5px;
+  transition: 1s;
+  border: none;
+}
+/*kevin*/
+.texto:hover{
+  background-color: var(--letras);
+  color: var(--subletras);
+    height: 40px;
+  width: 250px;
+  font-size: 40px;
+  border-radius: 5px;
+  transition: 1s;
+  border: none;
+}
+.premiados1:hover{
+  background-color: var(--fondo);
+  color:var(--subletras);
+  height: 40px;
+  width: 250px;
+  font-size: 40px;
+  border-radius: 5px;
+  transition: 1s;
+  border: none;
+}
+.texto1:hover{
+  background-color: var(--subletras);
+  color: var(--fondo);
+    height: 40px;
+  width: 250px;
+  font-size: 40px;
+  border-radius: 5px;
+  transition: 1s;
+  border: none;
+}
+
+.img{
+  display: block;
+  position: absolute;
+  width: 190px;
+  height: 250px;
+  border: solid #020c10 2px;
+}
+.img:hover{
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  border:none
+}
+
+.img__Manuel{
+  left: 785PX;
+  bottom:400px;
+  top: 300px;
+}
+
+.img__David{
+  right: 350px;
+  left: 550px;
+  bottom:400px;
+  top: 300px;
+}
+.img__Kevin{
+  right: 550px;
+  left: 320px;
+  bottom:400px;
+  top: 300px; 
+}
+.regreso{
+  display: block;
+  width: 100px;
+  height: 20px;
+  margin:0 auto;
+  border: solid 2px #000000;
+  padding: 1%;
+  text-decoration: none;
+  color: #000000;
+  background-color: #a9782f;
+  text-align: center;
+}
+
+
+
+
